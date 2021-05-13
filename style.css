@@ -1233,6 +1233,10 @@ div#organization div.row{
 
 /* - max-width: 479 */
 @media (max-width: 479px) {
+
+	.col-sm-8 .col-sm-offset-2  {
+		margin: 2em;
+	}
 	/* - Top Header */
 	.top-header .col-xs-6 {
 		width: 100%;
