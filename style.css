@@ -74,7 +74,9 @@ img {
 a {
     outline: 0 !important;
 	color: #AF1B71;
+	font-weight: bold;
 }
+
 
 /* - Padding/Margin */
 .no-padding {
@@ -182,9 +184,17 @@ a {
 
 .section-header p.satellite{
 	font-weight: 600;
-	margin-bottom: 3em;
-    color: #BAD1CD;
+    color: WHITE;
     font-style: italic;
+}
+
+p.satellite a{
+	outline: 0 !important;
+	color: white;
+}
+
+p.satellite a:hover{
+	color: #003844;
 }
 
 div.iconsInfo{
@@ -199,7 +209,7 @@ div.iconsInfo{
 }
 
 .section-subheader p.infos strong{
-	color: #BAD1CD;
+	color: white;
 }
 
 .section-subheader p.infos{
@@ -210,7 +220,7 @@ div.iconsInfo{
 }
 
 .section-subheader span{
-	color: #BAD1CD;
+	color: white;
 	font-family: 'Work Sans', sans-serif;
 }
 
