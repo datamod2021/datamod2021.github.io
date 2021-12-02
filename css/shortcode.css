@@ -815,14 +815,13 @@
 	display: inline-block;
 }
 .schedule-block .panel-default .panel-body  p{
-	color: #777;
+	color: #000;
 	font-size: 16px;
 	letter-spacing: 0.16px;
 	line-height: 30px;
 }
 .schedule-block .panel-default .panel-body .author-box {
 	position: relative;
-	margin-top: 41px;
 }
 .schedule-block .panel-default .panel-body .author-box img {
 	border-radius: 100%;
@@ -830,8 +829,18 @@
 	left: 0;
 	top: 12px;
 }
+.scheduleTime{
+	color: white !important;
+    font-size: 16px;
+	font-weight: 600;
+    letter-spacing: 0.16px;
+    line-height: 30px;
+    background-color: #feca16;
+    display: inline-block;
+    padding: 4px 25px;
+}
 .schedule-block .panel-default .panel-body .author-content {
-	margin-left: 98px;
+	/*margin-left: 98px;*/
 }
 .schedule-block .panel-default .panel-body .author-content h3 {
 	color: #222;
