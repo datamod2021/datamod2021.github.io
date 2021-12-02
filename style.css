@@ -309,6 +309,17 @@ div#program div.row{
 
 }
 
+.scheduleTime{
+	color: white !important;
+    font-size: 16px;
+	font-weight: 600;
+    letter-spacing: 0.16px;
+    line-height: 30px;
+    background-color: #feca16;
+    display: inline-block;
+    padding: 4px 25px;
+}
+
 /*ORGANIZATION DIV*/
 div#organization div.row{
 	margin-top: 4em;
